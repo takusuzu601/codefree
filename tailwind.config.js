@@ -1,5 +1,6 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
 
+const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors')
 module.exports = {
     purge: [
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
@@ -10,10 +11,17 @@ module.exports = {
 
     theme: {
         extend: {
+    colors:{
+                orange: colors.orange,
+                trueGray: colors.trueGray,
+                greenLime:colors.lime,
+
+        },
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
-        },
+
+        }
     },
 
     variants: {

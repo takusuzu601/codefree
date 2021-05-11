@@ -14,7 +14,7 @@ class Category extends Model
     //relation 1対多
     public function subcategories()
     {
-        return $this->hasMany(Category::class);
+        return $this->hasMany(Subcategory::class);
     }
 
     //relation 多対多
