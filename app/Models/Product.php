@@ -35,12 +35,18 @@ class Product extends Model
     //リレーション　多対多
     public function colors()
     {
-        return $this->belongsToMany(Color::class);
+        return $this->belongsToMany(Color::class)->withPivot('quantity');
     }
 
     //リレーション　ポリモーフィック
     public function images()
     {
         return $this->morphMany(Image::class, "imageable");
+    }
+
+    // URL AMIGABLES
+    public function getRouteKeyName()
+    {
+        return 'slug';
     }
 }

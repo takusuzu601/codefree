@@ -13,12 +13,14 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <!-- font-awsome -->
     <link rel="stylesheet" href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}">
-    {{-- Glider.js Min Css --}}
+    <!-- Glider.js Min Css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.7/glider.min.css"
         integrity="sha512-YM6sLXVMZqkCspZoZeIPGXrhD9wxlxEF7MzniuvegURqrTGV2xTfqq1v9FJnczH+5OGFl5V78RgHZGaK34ylVg=="
         crossorigin="anonymous" />
-
+    <!-- FlexSlider Css -->
+    <link rel="stylesheet" href="{{ asset('vendor/FlexSlider/flexslider.css') }}">
     @livewireStyles
 
     <!-- Scripts -->
@@ -27,6 +29,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.7/glider.min.js"
         integrity="sha512-tHimK/KZS+o34ZpPNOvb/bTHZb6ocWFXCtdGqAlWYUcz+BGHbNbHMKvEHUyFxgJhQcEO87yg5YqaJvyQgAEEtA=="
         crossorigin="anonymous"></script>
+    {{-- j query --}}
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    {{-- FlexSlider Css --}}
+    <script src="{{ asset('vendor/FlexSlider/jquery.flexslider-min.js') }}"></script>
 </head>
 
 <body class="font-sans antialiased">
