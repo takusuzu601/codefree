@@ -3,7 +3,7 @@
     <select wire:model="color_id" name="" id="" class="form-control w-full">
         <option value="" selected disabled>Selected of color</option>
         @foreach ($colors as $color)
-            <option value="{{ $color->id }}">{{ $color->name }}</option>
+            <option value="{{ $color->id }}">{{ __($color->name) }}</option>
         @endforeach
     </select>
 
@@ -20,7 +20,8 @@
             </x-jet-secondary-button>
         </div>
         <div class="flex-1">
-            <x-button x-bind:disabled="!$wire.quantity" color="orange" class="w-full">
+            <x-button x-bind:disabled="!$wire.quantity" color="orange" class="w-full" wire:click="addItem"
+                wire:loading.attr="disabled" wire:target="addItem">
                 ショッピングカートに追加する
             </x-button>
         </div>

@@ -20,6 +20,6 @@ class Size extends Model
     //リレーション 多対多
     public function colors()
     {
-        return $this->belongsToMany(color::class);
+        return $this->belongsToMany(color::class)->withPivot('quantity');
     }
 }
