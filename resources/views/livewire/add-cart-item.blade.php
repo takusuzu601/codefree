@@ -17,7 +17,7 @@
             </x-jet-secondary-button>
         </div>
         <div class="flex-1">
-            <x-button color="orange" x-bind:disabled="$wire.qty >= $wire.quantity" class="w-full" wire:click="addItem"
+            <x-button color="orange" x-bind:disabled="$wire.qty >$wire.quantity" class="w-full" wire:click="addItem"
                 wire:loading.attr="disabled" wire:target="
                 addItem">
                 ショッピングカートに追加する

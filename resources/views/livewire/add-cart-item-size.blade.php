@@ -9,6 +9,7 @@
         </select>
     </div>
 
+
     <div class="mt-2">
         <p class="text-xl text-gray-700">Color:</p>
         <select wire:model="color_id" name="" id="" class="form-control w-full">
@@ -18,6 +19,16 @@
             @endforeach
         </select>
     </div>
+
+
+    <p class="text-gray-700 my-4">
+        <span class="font-semibold text-lg">Stock disponible:</span>
+        @if ($quantity)
+            {{ $quantity }}
+        @else
+            {{ $product->stock }}
+        @endif
+    </p>
 
     <div class="flex mt-4">
         <div class="mr-4">
