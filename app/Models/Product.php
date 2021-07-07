@@ -53,7 +53,7 @@ class Product extends Model
     //リレーション　多対多
     public function colors()
     {
-        return $this->belongsToMany(Color::class)->withPivot('quantity');
+        return $this->belongsToMany(Color::class)->withPivot('quantity','id');
     }
 
     //リレーション　ポリモーフィック

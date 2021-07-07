@@ -39,6 +39,13 @@
                             {{ __('Profile') }}
                         </x-jet-dropdown-link>
 
+                        <x-jet-dropdown-link href="{{ route('orders.index') }}">
+                           注文内容
+                        </x-jet-dropdown-link>
+
+                        <x-jet-dropdown-link href="{{ route('admin.index') }}">
+                            Admin管理者画面
+                         </x-jet-dropdown-link>
 
                         <div class="border-t border-gray-100"></div>
 

@@ -1,4 +1,5 @@
 {
+  "Profile":"ユーザープロフィール",
   "Email":"メールアドレス",
   "Password":"パスワード",
   "Remember me":"パスワードを記録する",
@@ -13,7 +14,7 @@
     "Confirm Password":"パスワード(確認用)",
     "Reset Password":"パスワードリセット",
     "Send Password Reset Link":"パスワードリセットリンク送信",
-    "Logout":"ログアウト",
+    "Log Out":"ログアウト",
     "Verify Your Email Address":"ユーザ登録を完了してください",
     "A fresh verification link has been sent to your email address.":"新しいリンクをあなたのメールアドレスに送信しました。",
     "Before proceeding, please check your email for a verification link.":"メールに記載されているリンクをクリックして、登録手続きを完了してください。",

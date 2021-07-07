@@ -1,3 +1,5 @@
+GITHUB https://github.com/coders-free/ecommerce
+
 SESSION 6 ナビゲーションとレスポンシブ化 FontAwsome
 SESSION 7 スライダー Glider.js  CDN取得 cdnjs.com('https://cdnjs.com/libraries/glider-js')
 
@@ -7,3 +9,26 @@ SECRION9 SLIDER FLEXSLIDER2 http://flexslider.woothemes.com/
 SESSION9 46 日付翻訳 date https://github.com/jenssegers/date
 
 SECSION10 ショッピングカート bumbummen99/shoppingcart URL:https://packagist.org/packages/bumbummen99/shoppingcart
+
+SECTION 111 ポリシーを構築
+
+SECTION 118 ヘルパーで乗算減算など　ヘルパー
+
+session 126 CKediter設置方法
+
+section 131 Edit セレクトの既存値など　アップデートのやり方書き方
+★tool
+
+CKEditor 5(エディターCDN) https://ckeditor.com/ckeditor-5/download/?undefined-addons=
+　　　　　　(session 126)
+
+SESSION134　slugでうまくいかないQ&Aに答えアリ　コピペで
+
+SESSION 139 モーダルへ値の受け渡し
+
+SESSION 142-148 color size リレーションでCRUD 設定　多対多
+
+SESSION 149 doropzoneで画像をアップロード　dropzone CDN https://cdnjs.com/libraries/dropzone
+            dropzone js https://www.dropzonejs.com/
+
+SESSION 149 画像アップローダー設定

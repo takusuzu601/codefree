@@ -20,7 +20,7 @@ class CreateColorProductTable extends Migration
             $table->foreign('color_id')->references('id')->on('colors');
 
             $table->unsignedBigInteger('product_id');
-            $table->foreign('product_id')->references('id')->on('products');
+            $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
 
             $table->integer('quantity');
 
